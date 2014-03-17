@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<excelImport targetTable="">
+	<repeatImport>    
+		<column  sourceColumn="K2" targetColumn="AIRLINE_Code"/>
+		<column  sourceColumn="P2" targetColumn="PNR"/>
+		<column  sourceColumn="A1" targetColumn="TicketNo"/>
+		<column  sourceColumn="D1" targetColumn="TICKET_PRICE"/>
+		<column  sourceColumn="E1" targetColumn="FUEL_COST"/>
+		<column  sourceColumn="H1" targetColumn="PAY_AMOUNT"/>
+		<endCode>End</endCode>
+	</repeatImport>
+
+</excelImport>
